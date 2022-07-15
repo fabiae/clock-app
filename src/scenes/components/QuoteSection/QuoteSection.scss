@@ -1,0 +1,35 @@
+.quote {
+  width: 573px;
+  height: 45%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &-top {
+    display: flex;
+    flex-direction: row;
+
+    .text {
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #FFFFFF;
+    }
+
+    .button-refresh {
+      height: 40px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+
+  &-author {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+}

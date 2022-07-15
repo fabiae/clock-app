@@ -1,8 +1,10 @@
 import { combineReducers } from '@reduxjs/toolkit'
+import { appReducer } from '../services/App/AppSlice'
 import { quoteReducer } from '../services/Quote/QuoteSlice'
 
 const combineReducer = combineReducers({
-  quote: quoteReducer
+  quote: quoteReducer,
+  app: appReducer
 })
 
 const rootReducer = (state, action) => {
