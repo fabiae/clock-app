@@ -18,7 +18,7 @@ export const DetailSection = () => {
           <div style={{ color: worldTime?.schedule === "day" ? "#303030" : "#FFFFFF" }} className='detail-item--content'>{worldTime?.dayOfYear}</div>
         </div>
       </div>
-      <Divider type='vertical' style={{ height: "100%", width: 1, backgroundColor: "#303030", opacity: 0.25, marginLeft: 70, marginRight: 70 }} />
+      <Divider className='divider' type='vertical' style={{ height: "100%", width: 1, backgroundColor: "#303030", opacity: 0.25, marginLeft: 70, marginRight: 70 }} />
       <div className='col-2'>
         <div className='detail-item'>
           <div style={{ color: worldTime?.schedule === "day" ? "#303030" : "#FFFFFF" }} className='detail-item--title'>DAY OF THE WEEK</div>

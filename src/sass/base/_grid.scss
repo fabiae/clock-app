@@ -1,0 +1,196 @@
+@media (max-width: $desktop) {}
+
+@media (max-width: $laptop) {}
+
+@media (max-width: $medium) {
+  .app-day {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 85px !important;
+  }
+
+  .app-night {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 85px !important;
+  }
+
+  .app-day--detail {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 100px !important;
+    height: 58% !important;
+  }
+
+  .app-night--detail {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    padding-top: 100px !important;
+    height: 58% !important;
+  }
+
+  .clock {
+    &-location {
+      flex-direction: column;
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+      height: 160px !important;
+    }
+  }
+
+  .detail {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+    height: 42% !important;
+
+    .col-2 {
+      margin-left: 135px;
+    }
+
+    &-item--title {
+      font-size: 13px !important;
+    }
+
+    &-item--content {
+      font-size: 40px !important;
+    }
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: $tablet) {
+  .app-day {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 40px !important;
+  }
+
+  .app-night {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 40px !important;
+  }
+
+  .app-day--detail {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 100px !important;
+    height: 55% !important;
+  }
+
+  .app-night--detail {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 100px !important;
+    height: 55% !important;
+  }
+
+  .quote {
+    width: auto !important;
+
+    &-top {
+
+      .text {
+        font-size: 13px !important;
+      }
+    }
+
+    &-author {
+      font-size: 14px !important;
+    }
+  }
+
+  .clock {
+    &-salute {
+
+      .text {
+        font-size: 15px !important;
+      }
+    }
+
+    &-hour {
+
+      &--first {
+        font-size: 110px !important;
+        line-height: 105px !important;
+      }
+
+      &--second {
+        font-size: 20px !important;
+      }
+    }
+
+    &-location {
+      margin-top: 35px !important;
+      flex-direction: column;
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+      height: 180px !important;
+
+      &--text {
+        font-size: 20px !important;
+      }
+
+      &--button {
+        width: 120px !important;
+        height: 42px !important;
+
+        .text {
+          font-size: 15px !important;
+        }
+
+        .icon {
+          width: 31px !important;
+          height: 33px !important;
+          margin-left: 7px !important;
+        }
+      }
+    }
+  }
+
+  .detail {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    height: 45% !important;
+    flex-direction: column !important;
+
+    .col-1 {
+      width: 100% !important;
+    }
+
+    .col-2 {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+
+    &-item {
+      flex-direction: row !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-bottom: 5px !important;
+
+      &--title {
+        font-size: 11px !important;
+        margin-bottom: 0 !important;
+      }
+
+      &--content {
+        font-size: 28px !important;
+      }
+    }
+
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media (max-width: $mobile) {
+  .app-day {
+    border: 1px solid blue;
+  }
+}
