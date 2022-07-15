@@ -8,6 +8,7 @@
   &-top {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 
     .text {
       font-family: 'Inter';
@@ -15,12 +16,15 @@
       font-size: 18px;
       line-height: 28px;
       color: #FFFFFF;
+      margin-right: 15px;
     }
 
     .button-refresh {
+      display: flex;
       height: 40px;
       background-color: transparent;
       border: none;
+      padding-top: 5px;
     }
   }
 
