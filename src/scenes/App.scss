@@ -14,4 +14,20 @@
       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/desktop/bg-image-daytime.jpg");
     }
   }
+
+  &-night {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/desktop/bg-image-nighttime.jpg");
+
+    &--detail {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      padding-left: 150px;
+      padding-right: 150px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/desktop/bg-image-nighttime.jpg");
+    }
+  }
 }
