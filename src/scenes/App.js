@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const fechData = async () => {
-      const response = await axios.get("http://worldtimeapi.org/api/ip")
+      const response = await axios.get("https://worldtimeapi.org/api/ip")
       if (response.status !== 200)
         return
       const { data } = response
