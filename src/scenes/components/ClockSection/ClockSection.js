@@ -31,11 +31,12 @@ export const ClockSection = () => {
 
   useEffect(() => {
     if (hour) {
+      console.log(hour)
       if (hour >= 5 && hour < 12) {
         setTextSchedule("GOOD MORNING")
       } else if (hour >= 12 && hour < 18) {
         setTextSchedule("GOOD AFTERNOON")
-      } else if (hour >= 18 && hour < 5) {
+      } else if (hour >= 18 || hour < 5) {
         setTextSchedule("GOOD EVENING")
       }
     }
